@@ -2,10 +2,12 @@
   "name": "pianorhythm-docs",
   "version": "0.0.0",
   "private": true,
+  "isProduction": true,
+  "isStaging": false,
   "scripts": {
     "docusaurus": "docusaurus",
     "start": "docusaurus start --port 4000",
-    "build": "cross-env NODE_ENV=production docusaurus build --out-dir ../public/docs/",
+    "build": "cross-env NODE_ENV=production docusaurus build",
     "swizzle": "docusaurus swizzle",
     "deploy": "docusaurus deploy",
     "clear": "docusaurus clear",

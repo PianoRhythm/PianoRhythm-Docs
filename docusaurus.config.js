@@ -4,7 +4,7 @@
 const lightCodeTheme = require('prism-react-renderer/themes/github');
 const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 
-const package = require("../package.json")
+const package = require("./package.json")
 
 let PIANORHYTHM_ENV = (process.env.PIANORHYTHM_ENV || process.env.NODE_ENV || "").toLowerCase();
 if (PIANORHYTHM_ENV && PIANORHYTHM_ENV == "dev" || PIANORHYTHM_ENV == "localhost") PIANORHYTHM_ENV = "development";
